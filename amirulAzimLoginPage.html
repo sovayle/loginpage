@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmirulAzimLoginPage</title>
+    <link rel="stylesheet" href="cssFiles/login.css">
+    <script src = "jsFiles/loginPage.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="headers"> Welcome to the login page!</h1>
+        <hr>
+    </header>
+    <main>
+        <div id="divForm">
+            <h3 class="headers">Please enter username and password to continue to the main page.</h3>
+            <form name="myForm" method="post">
+                <label for ="username">Username:</label>
+                <input type="text" name="Uname" id="username"> <br>
+
+                <label for ="password">Password:</label>
+                <input type="password" name="Pass" id="password"> <br>
+
+                <input type="button" name="log" value="Login" id="submit" onclick="checkGuesser()">
+            </form>
+        </div>
+    </main> 
+</body>
+</html>
